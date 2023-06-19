@@ -71,7 +71,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/CriShoux/OwlHub/mast
 local Button = Tab:CreateButton({
    Name = "Spin",
    Callback = function()
-   loadstring(game:HttpGet((''),true))()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/spin.lua'),true))()
    end,
 })
 
