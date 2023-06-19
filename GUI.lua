@@ -53,7 +53,7 @@ local Slider = MainTab:CreateSlider({
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
    end,
 })
-local Button = Tab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "Infinite Jump",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/infjump.lua'),true))()
