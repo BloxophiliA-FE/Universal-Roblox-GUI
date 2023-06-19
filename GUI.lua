@@ -67,7 +67,15 @@ local Button = Tab:CreateButton({
    Callback = function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"),true))();
    end,
-})local Button = Tab:CreateButton({
+})
+local Button = Tab:CreateButton({
+   Name = "Spin",
+   Callback = function()
+   loadstring(game:HttpGet((''),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Reach (r to close)",
    Callback = function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/a9e4956b358ed8d07b31c04d382e46ac899121c3/reach.lua'),true))()
