@@ -363,7 +363,7 @@ local Section = Tab:CreateSection("Tools")
 local Button = Tab:CreateButton({
    Name = "Remote Spy",
    Callback = function()
-   
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/RemoteSpy.lua'))()
    end,
 })
 
