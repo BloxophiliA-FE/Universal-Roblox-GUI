@@ -65,7 +65,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Owl Hub (aimbot)",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"),true))();
    end,
 })local Button = Tab:CreateButton({
    Name = "Reach (r to close)",
