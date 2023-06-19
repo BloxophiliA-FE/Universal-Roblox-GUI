@@ -56,7 +56,7 @@ local Slider = MainTab:CreateSlider({
 local Button = MainTab:CreateButton({
    Name = "Infinite Jump",
    Callback = function()
-   loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/infjump.lua'),true))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/infjump.lua'))()
    end,
 })
 
