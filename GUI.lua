@@ -56,7 +56,7 @@ local Slider = MainTab:CreateSlider({
 local Toggle = MainTab:CreateToggle({
    Name = "Infinite Jump",
    CurrentValue = false,
-   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Toggle1234", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
       loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/infjump.lua'),true))()
    end,
