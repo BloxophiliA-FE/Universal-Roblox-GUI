@@ -359,6 +359,13 @@ end
 end)
    end,
 })
+local Section = Tab:CreateSection("Tools")
+local Button = Tab:CreateButton({
+   Name = "Remote Spy",
+   Callback = function()
+   
+   end,
+})
 
 local Tab = Window:CreateTab("FE Scripts", nil) -- Title, Image
 local Button = Tab:CreateButton({
