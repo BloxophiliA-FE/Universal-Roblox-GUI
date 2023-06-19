@@ -56,12 +56,18 @@ local Slider = MainTab:CreateSlider({
 
 local Tab = Window:CreateTab("Cheats", nil) 
 local Button = Tab:CreateButton({
-   Name = "Infinite Yeild",
+   Name = "Infinite Yield",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
    end,
 })
+
 local Button = Tab:CreateButton({
+   Name = "Owl Hub (aimbot)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+   end,
+})local Button = Tab:CreateButton({
    Name = "Reach (r to close)",
    Callback = function()
         local active = true
@@ -831,5 +837,12 @@ local Button = Tab:CreateButton({
    Name = "RemX (temporary)",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
    end,
 })
