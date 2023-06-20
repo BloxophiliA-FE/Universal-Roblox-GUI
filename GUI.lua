@@ -126,7 +126,7 @@ local Section = Tab:CreateSection("Spider")
 local Button = Tab:CreateButton({
    Name = "Auto Win",
    Callback = function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/Autowinspider.lua'),true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/Autowinspider.lua'))()
    end,
 })
 
