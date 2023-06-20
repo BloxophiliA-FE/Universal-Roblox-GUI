@@ -121,5 +121,13 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Auto play", nil)
+local Tab = Window:CreateTab("Auto", nil)
+local Section = Tab:CreateSection("Spider")
+local Button = Tab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   
+   end,
+})
+
 
