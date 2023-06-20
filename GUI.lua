@@ -93,7 +93,7 @@ local Section = Tab:CreateSection("Tools")
 local Button = Tab:CreateButton({
    Name = "Remote Spy",
    Callback = function()
-   oadstring(game:HttpGetAsync("https://github.com/richie0866/remote-spy/releases/latest/download/RemoteSpy.lua"))()
+   loadstring(game:HttpGetAsync("https://github.com/richie0866/remote-spy/releases/latest/download/RemoteSpy.lua"))()
    end,
 })
 
@@ -126,7 +126,7 @@ local Section = Tab:CreateSection("Spider")
 local Button = Tab:CreateButton({
    Name = "Auto Win (NOT WORKING)",
    Callback = function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/Autowinspider.lua'))()
+    loadstring((game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/Autowinspider.lua'),true))()
    end,
 })
 
