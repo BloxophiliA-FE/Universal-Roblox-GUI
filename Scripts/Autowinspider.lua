@@ -1,4 +1,4 @@
-   noclipON = true
+local noclipON = true
     if not stad1 then
         for _,v in pairs(game:GetService("Workspace").Items:GetDescendants()) do
             if v.ClassName == "ClickDetector" then
