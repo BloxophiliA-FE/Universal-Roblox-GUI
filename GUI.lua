@@ -93,7 +93,7 @@ local Section = Tab:CreateSection("Tools")
 local Button = Tab:CreateButton({
    Name = "Remote Spy",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/RemoteSpy.lua'))()
+   oadstring(game:HttpGetAsync("https://github.com/richie0866/remote-spy/releases/latest/download/RemoteSpy.lua"))()
    end,
 })
 
@@ -120,4 +120,6 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
    end,
 })
+
+local Tab = Window:CreateTab("Auto play", nil)
 
