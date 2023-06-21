@@ -101,7 +101,7 @@ local Tab = Window:CreateTab("FE Scripts", nil) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Spider (only works in R6)",
    Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/spiderFE.lua'),true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/spiderFE.lua'))()
    end,
 })
 
@@ -126,8 +126,7 @@ local Section = Tab:CreateSection("Spider")
 local Button = Tab:CreateButton({
    Name = "Auto Win (NOT WORKING)",
    Callback = function()
-    loadstring((game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/Autowinspider.lua'),true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloxophiliA-FE/Universal-Roblox-GUI/main/Scripts/Autowinspider.lua'))()
    end,
 })
-
 
