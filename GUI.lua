@@ -93,7 +93,7 @@ local Section = Tab:CreateSection("Tools")
 local Button = Tab:CreateButton({
    Name = "Remote Spy",
    Callback = function()
-   loadstring(game:HttpGetAsync("https://github.com/richie0866/remote-spy/releases/latest/download/RemoteSpy.lua"))()
+   loadstring(game:HttpGet("https://github.com/richie0866/remote-spy/releases/latest/download/RemoteSpy.lua"))()
    end,
 })
 
