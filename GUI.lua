@@ -120,6 +120,12 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "BS:ED gui",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubLoader.lua",true))()
+   end,
+})
 
 local Tab = Window:CreateTab("Auto", nil)
 local Section = Tab:CreateSection("Spider")
