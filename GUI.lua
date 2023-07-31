@@ -29,7 +29,7 @@ local Input = Tab:CreateInput({
    PlaceholderText = "Input Placeholder",
    RemoveTextAfterFocusLost = false,
    Callback = function(Text)
-getgenv().WalkSpeedValue = (Value); --set your desired walkspeed here
+getgenv().WalkSpeedValue = (Text); --set your desired walkspeed here
 local Player = game:service'Players'.LocalPlayer;
 Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
 Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
