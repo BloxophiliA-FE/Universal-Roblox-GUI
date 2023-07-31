@@ -24,16 +24,12 @@ local Window = Rayfield:CreateWindow({
 })
 
 local MainTab = Window:CreateTab("SuperHuman") -- Title, Image
-
-local Slider = MainTab:CreateSlider({
-   Name = "Walkspeed",
-   Range = {0, 256},
-   Increment = 1,
-   Suffix = "Speed",
-   CurrentValue = 16,
-   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Value)
-        getgenv().WalkSpeedValue = (Value); --set your desired walkspeed here
+local Input = Tab:CreateInput({
+   Name = "Input Example",
+   PlaceholderText = "Input Placeholder",
+   RemoveTextAfterFocusLost = false,
+   Callback = function(Text)
+getgenv().WalkSpeedValue = (Value); --set your desired walkspeed here
 local Player = game:service'Players'.LocalPlayer;
 Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
 Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
@@ -41,6 +37,7 @@ end)
 Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
    end,
 })
+
 
 local Slider = MainTab:CreateSlider({
    Name = "Jump Power",
