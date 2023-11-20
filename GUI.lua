@@ -8,10 +8,10 @@ local Window = Rayfield:CreateWindow({
    LoadingSubtitle = "by BloxophiliA",
    Discord = {
       Enabled = true,
-      Invite = "HudHMAEXhB", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      Invite = "cfbSVZsHp9", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
-   KeySystem = true, -- Set this to true to use our key system
+   KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "You need a key to pass",
       Subtitle = "Warning: Hacking could result in a ban, use at your own risk",
