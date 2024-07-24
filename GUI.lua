@@ -126,6 +126,12 @@ local Button = Tab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubLoader.lua",true))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Booga Booga Reborn",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Update!-Booga-Booga-REBORN-Slideurs-Hub-15401"))()
+   end,
+})
 
 local Tab = Window:CreateTab("Auto", nil)
 local Section = Tab:CreateSection("Spider")
