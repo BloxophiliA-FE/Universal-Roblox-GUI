@@ -27,7 +27,7 @@ local MainTab = Window:CreateTab("SuperHuman") -- Title, Image
 
 local Slider = MainTab:CreateSlider({
    Name = "Walkspeed",
-   Range = {0, 512},
+   Range = {16, 24},
    Increment = 1,
    Suffix = "Speed",
    CurrentValue = 16,
