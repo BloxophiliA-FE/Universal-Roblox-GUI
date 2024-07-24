@@ -129,7 +129,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Booga Booga Reborn",
    Callback = function()
-      loadstring(game:HttpGet("https://rawscripts.net/raw/Update!-Booga-Booga-REBORN-Slideurs-Hub-15401"))()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Update!-Booga-Booga-REBORN-Slideurs-Hub-15401",true))()
    end,
 })
 
